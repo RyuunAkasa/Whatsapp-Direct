@@ -1,0 +1,162 @@
+body {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    background-color: aliceblue;
+    width: 60%;
+    height: auto;
+    margin: 40% auto 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px green;
+    box-sizing: content-box;
+    overflow: hidden;
+    transition: all .5s;
+
+}
+
+#heading {
+    width: 90%;
+    height: auto;
+    margin: 5px auto;
+    transition: all .5s;
+}
+
+span.green {
+    color: green;
+}
+
+span.bold {
+
+    font-weight: bold;
+}
+
+span.mid {
+    font-size: 1.3em;
+}
+
+#heading>h3 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+#content {
+
+    width: 90%;
+    height: auto;
+    margin: auto;
+    transition: all .5s;
+
+}
+
+#entry-field {
+
+    display: block;
+    width: 60%;
+    height: 2em;
+    margin: 10px auto;
+    border: 1px solid green;
+    border-radius: 5px;
+    outline: none;
+    color: green;
+    text-shadow: 0 0 1px yellow;
+    transition: all .5s;
+
+
+}
+
+#entry-field:hover {
+    box-shadow: 0 0 5px green;
+    width: 63%;
+
+
+}
+
+#entry-field::placeholder {
+    text-align: center;
+    text-shadow: 0 0 5px green;
+}
+
+#send-button {
+    display: block;
+    width: 20%;
+    height: 2em;
+    margin: 5px auto;
+    background-color: rgb(32, 209, 32);
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    padding: auto;
+    color: aliceblue;
+    font-size: medium;
+    font-weight: bold;
+    transition: all .5s;
+
+
+}
+
+#send-button:hover {
+    background-color: rgb(27, 255, 27);
+    box-shadow: 0 0 5px rgb(122, 122, 122);
+    color: black;
+}
+
+.container>#about-button {
+    width: 20px;
+    height: 20px;
+    margin: 5px auto;
+    background-color: gray;
+    box-shadow: 0 0 5px black;
+    border-radius: 50%;
+    cursor: help;
+
+
+}
+
+#about-button-logo {
+    width: 100%;
+    height: 100%;
+    font-size: large;
+    text-align: center;
+    margin: auto;
+}
+
+#status {
+    width: 90%;
+    margin: auto;
+}
+
+#status-text {
+    width: 100%;
+    margin: 5px auto;
+    font-size: 1.5em;
+    color: red;
+    text-align: center;
+    visibility: hidden;
+
+}
+#about{
+    visibility: hidden;
+}
+
+#about-heading {
+    font-size: x-large;
+    color: green;
+    width: 100%;
+    text-align: center;
+
+}
+
+cite {
+    display: block;
+    width: 90%;
+    text-align: end;
+}
+
+#about-text {
+    font-size: medium;
+    width: 100%;
+    text-align: center;
+
+}
