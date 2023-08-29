@@ -6,7 +6,7 @@ function send() {
         setTimeout(function () { document.getElementById("status-text").style.visibility="hidden"; }, 2000)
     } else {
         // console.log(number_data);
-        let go_to = `https://api.whatsapp.com/send/?phone=${number_data}&text&type=phone_number&app_absent=0`;
+        let go_to = `https://api.whatsapp.com/send/?phone=+91${number_data}&text&type=phone_number&app_absent=0`;
         window.open(go_to, "_blank");
     }
 
