@@ -80,7 +80,7 @@ span.mid {
 
 #send-button {
     display: block;
-    width: 20%;
+    width: fit-content;
     height: 2em;
     margin: 5px auto;
     background-color: rgb(32, 209, 32);
@@ -89,10 +89,9 @@ span.mid {
     text-align: center;
     padding: auto;
     color: aliceblue;
-    font-size: 3vw;
-    
     font-weight: bold;
     transition: all .5s;
+    overflow: hidden;
 
 
 }
