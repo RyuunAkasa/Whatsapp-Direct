@@ -1,7 +1,7 @@
 //send button function
 function send() {
     let number_data = document.getElementById("entry-field").value;
-    if (number_data.toString() < 10) {
+    if (number_data.toString().length < 10) {
         document.getElementById("status-text").style.visibility = "visible";
         setTimeout(function () { document.getElementById("status-text").style.visibility="hidden"; }, 2000)
     } else {
